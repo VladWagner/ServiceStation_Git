@@ -1,5 +1,6 @@
 .vs
 .git
+.gitignore
 ServiceStationWPF/bin
 ServiceStationWPF/obj
 ServiceStationWPF/Images
