@@ -83,7 +83,9 @@
         <!--#endregion-->
 
         <ToolBar
-            Grid.Row="1">
+            Grid.Row="1"
+            
+            >
 
             <Button >
                 <Image Source="..\images\Add_20x20.jpg" Stretch="Uniform" Width="18"

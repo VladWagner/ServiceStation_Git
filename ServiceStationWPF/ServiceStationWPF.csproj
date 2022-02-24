@@ -95,8 +95,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Add_20x20.jpg" />
+    <Resource Include="Images\bin2_20x20.jpg" />
+    <Resource Include="Images\Bin_20x20.jpg" />
+    <Resource Include="Images\Close_1_20x20.jpg" />
+    <Resource Include="Images\Close_2__20x20.jpg" />
+    <Resource Include="Images\Edit_20x20.jpg" />
+    <Resource Include="Images\edit_RS_20x20.jpg" />
+    <Resource Include="Images\Exit_20x20.jpg" />
+    <Resource Include="Images\Hide_20x20.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
