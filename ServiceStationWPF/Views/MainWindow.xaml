@@ -134,6 +134,169 @@
                     </Grid>
                 </GroupBox>
             </TabItem>
+            <TabItem
+                Header="Запрос 2"
+                >
+                <GroupBox 
+                  BorderBrush="Black"
+                  Margin="5,5"
+                  Header="Вывод"
+                  FontSize="12" Grid.ColumnSpan="2"
+                  >
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid 
+                    x:Name="DG_Query_2"
+                    Margin="0,5,0,0"
+                    AutoGenerateColumns="False"
+                    IsReadOnly="True"
+                    SelectionMode="Single"
+                    MinRowHeight="26"
+                    >
+                            <!-- Стилизация DG -->
+
+
+
+                        </DataGrid>
+                    </Grid>
+                </GroupBox>
+            </TabItem>
+            
+            <TabItem
+                Header="Запрос 3"
+                >
+                <GroupBox 
+                  BorderBrush="Black"
+                  Margin="5,5"
+                  Header="Вывод"
+                  FontSize="12" Grid.ColumnSpan="2"
+                  >
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid 
+                    x:Name="DG_Query_3"
+                    Margin="0,5,0,0"
+                    AutoGenerateColumns="False"
+                    IsReadOnly="True"
+                    SelectionMode="Single"
+                    MinRowHeight="26"
+                    >
+                            <!-- Стилизация DG -->
+
+
+
+                        </DataGrid>
+                    </Grid>
+                </GroupBox>
+            </TabItem>
+            <TabItem
+                Header="Запрос 4"
+                >
+                <GroupBox 
+                  BorderBrush="Black"
+                  Margin="5,5"
+                  Header="Вывод"
+                  FontSize="12" Grid.ColumnSpan="2"
+                  >
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid 
+                    x:Name="DG_Query_4"
+                    Margin="0,5,0,0"
+                    AutoGenerateColumns="False"
+                    IsReadOnly="True"
+                    SelectionMode="Single"
+                    MinRowHeight="26"
+                    >
+                            <!-- Стилизация DG -->
+
+
+
+                        </DataGrid>
+                    </Grid>
+                </GroupBox>
+            </TabItem>
+            
+            <TabItem
+                Header="Запрос 5"
+                >
+                <GroupBox 
+                  BorderBrush="Black"
+                  Margin="5,5"
+                  Header="Вывод"
+                  FontSize="12" Grid.ColumnSpan="2"
+                  >
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid 
+                    x:Name="DG_Query_5"
+                    Margin="0,5,0,0"
+                    AutoGenerateColumns="False"
+                    IsReadOnly="True"
+                    SelectionMode="Single"
+                    MinRowHeight="26"
+                    >
+                            <!-- Стилизация DG -->
+
+
+
+                        </DataGrid>
+                    </Grid>
+                </GroupBox>
+            </TabItem>
+            
+            <TabItem
+                Header="Запрос 6"
+                >
+                <GroupBox 
+                  BorderBrush="Black"
+                  Margin="5,5"
+                  Header="Вывод"
+                  FontSize="12" Grid.ColumnSpan="2"
+                  >
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid 
+                    x:Name="DG_Query_6"
+                    Margin="0,5,0,0"
+                    AutoGenerateColumns="False"
+                    IsReadOnly="True"
+                    SelectionMode="Single"
+                    MinRowHeight="26"
+                    >
+                            <!-- Стилизация DG -->
+
+
+
+                        </DataGrid>
+                    </Grid>
+                </GroupBox>
+            </TabItem>
             
         </TabControl>
         
