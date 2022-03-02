@@ -78,6 +78,10 @@
                           />
 
             </MenuItem>
+            <MenuItem
+                Header="Открыть textBlock"
+                Click="MniOpenTbk_Click"
+                />
 
         </Menu>
         <!--#endregion-->

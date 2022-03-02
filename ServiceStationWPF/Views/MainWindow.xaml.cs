@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ServiceStationWPF.Views;
 
 namespace ServiceStationWPF
 {
@@ -20,9 +21,18 @@ namespace ServiceStationWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        TbxWindow tbxWindow;
         public MainWindow()
         {
             InitializeComponent();
+            tbxWindow = new TbxWindow();
+        }
+
+        private void MniOpenTbk_Click(object sender, RoutedEventArgs e)
+        {
+            if (tbxWindow == null)
+                return;
+            tbxWindow.ShowDialog();
         }
     }
 }
