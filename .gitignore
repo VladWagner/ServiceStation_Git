@@ -4,3 +4,5 @@
 ServiceStationWPF/bin
 ServiceStationWPF/obj
 ServiceStationWPF/Images
+*.asta
+*.docx
