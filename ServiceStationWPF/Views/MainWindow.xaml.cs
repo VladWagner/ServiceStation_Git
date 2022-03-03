@@ -25,11 +25,13 @@ namespace ServiceStationWPF
         public MainWindow()
         {
             InitializeComponent();
-            tbxWindow = new TbxWindow();
         }
 
         private void MniOpenTbk_Click(object sender, RoutedEventArgs e)
         {
+
+            tbxWindow = new TbxWindow();
+
             if (tbxWindow == null)
                 return;
             tbxWindow.ShowDialog();
